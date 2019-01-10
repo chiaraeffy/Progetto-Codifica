@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "PostcardProject.dtd">
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt xml:id="titleStmt1">
+            <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+            <title>
+               <foreign xml:lang="fra">Fievre d'amour</foreign>
+               - Edizione digitale diplomatico-interpretativa
+            </title>
+            <!-- TRASCRITTORE nome e cognome-->
+            <respStmt>
+               <resp>Transcription by</resp>
+               <name ref="#CA">Chiara Ambrosi</name>
+               <name ref="#VS">Viviana Scicolone</name>
+            </respStmt>
+            <!-- ENTE DI APPARTENENZA -->
+            <respStmt>
+               <resp>Ente di Appartenenza</resp>
+               <name type="comune" ref="#SP">Comune di La Spezia</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt xml:id="editionStmt1">
+            <edition>
+               Studenti di Informatica Umanistica, corso di Laurea di Informatica Umanistica, Università di Pisa,
+               <!-- COMPILAZIONE -->
+               <date>2018</date>
+            </edition>
+            <!-- NOME COMPILATORE -->
+            <respStmt>
+               <resp>Encoding by</resp>
+               <name ref="#XY1">Tommaso Castagneto</name>
+            </respStmt>
+            <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+            <respStmt>
+               <resp>Compilatore:</resp>
+               <name ref="#XY2">Tommaso Castagneto</name>
+               <name ref="#XZ1">Viviana Sciolone e Chiara Ambrosi</name>
+            </respStmt>
+            <respStmt>
+               <resp>Responsabile scientifico</resp>
+               <name ref="#GP">Giacomo Paolicchi</name>
+               <name ref="#ES">Enrica Salvatori</name>
+            </respStmt>
+            <respStmt>
+               <resp>Funzionario responsabile</resp>
+               <name ref="#ER">E. Ratti.</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt xml:id="publicationStmt1">
+            <publisher>Unipi</publisher>
+            <pubPlace>Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>LabCD</distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>Pisa</addrLine>
+            </address>
+         </publicationStmt>
+         <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+         <notesStmt xml:id="notesStmt1">
+            <note>Sul retro riporta la stampa “Copyright by A. Noyer 1912 – Allegorie n 198”</note>
+         </notesStmt>
+         <sourceDesc xml:id="sourceDesc1">
+            <bibl>
+               <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+               <title xml:id="tit1" type="custom" resp="#ES">Aggiornamenti da Ravenna</title>
+               <author>Giuseppe</author>
+               <date when="1913">1913</date>
+            </bibl>
+            <msDesc>
+               <!-- COLLOCAZIONE SPECIFICA -->
+               <!-- CODICE IDENTIFICATIVO -->
+               <msIdentifier>
+                  <country>Italia</country>
+                  <settlement>La Spezia (SP)</settlement>
+                  <!-- COLLOCAZIONE SPECIFICA -->
+                  <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerra Mondiale</repository>
+                  <!-- CODICE IDENTIFICATIVO -->
+                  <idno>7694_064_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp>Francobollo - Regno d'Italia</stamp>
+                        </support>
+                        <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+                                discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di 
+                                parti rilevanti, necessita di restauro-->
+                        <condition>Buona, non occorrono interventi di restauro</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+            <!-- NOMI -->
+            <listPerson>
+               <person xml:id="G">
+                  <persName>
+                     <forename>Giuseppe</forename>
+                  </persName>
+                  <sex>M</sex>
+               </person>
+               <person  xml:id="OT">
+                  <persName>
+                     <forename>Oliva</forename>
+                     <surname>Turtura</surname>
+                  </persName>
+                  <sex>F</sex>
+               </person>
+            </listPerson>
+            <listPlace>
+               <place xml:id="RV">
+                  <placeName>Ravenna</placeName>
+                  <district type="comune">Ravenna</district>
+                  <district type="provincia">RV</district>
+                  <country key="N">IT</country>
+               </place>
+               <place xml:id="NO">
+                  <placeName>Arona</placeName>
+                  <district type="comune">Arona</district>
+                  <district type="provincia">NO</district>
+                  <country key="N">IT</country>
+                  <note>Lago Maggiore</note>
+               </place>
+            </listPlace>
+            <listOrg>
+               <org>
+                  <orgName type="N" />
+                  <desc>Comune di La Spezia</desc>
+               </org>
+            </listOrg>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#G" />
+               <placeName ref="#RV" />
+               <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+               <date type="writing" when="1913-7-25">1913/7/25</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#OT" />
+               <placeName ref="#NO" />
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term>Cartolina</term>
+               <term>Cartolina Artistica</term>
+               <term>Uomo si abbevera dalla mano di una persona</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">La lingua usata e su cui si basa la codifica è l'italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <!-- DEFINIZIONE -->
+   <text type="cartolina" xml:id="cartolina1">
+      <!-- TRASCRIZIONE -->
+      <body>
+         <pb facs="#fronte1" n="1" xml:id="cartolina_fronte1" />
+         <div type="fronte">
+            <figure>
+               <head>
+                  <title xml:id="titolo21">Febbre d'amore</title>
+               </head>
+               <figDesc>L'immagine descrive una donna alta e sinuosa, avvolta in un drappo leggero che legato in vita si estende lungo il 
+                            corpo confondendosi con le rocce sottostanti, risaltandone le forme. Il fanciullo sulla destra è rivolto alla donna con 
+                            uno sguardo simile a chi è devoto alla propria amata. Non a caso il titolo dell'immagine è "Febbre d'amore",
+                            chiaramente visibile nella parte inferiore della cartolina. Inoltre, sotto il fanciullo è possibile
+                            intravedere la firma dell'autore "D.Mastroianni".</figDesc>
+            </figure>
+         </div>
+         <pb facs="#retro1" n="2" xml:id="cartolina_retro1" />
+         <div xml:id="txtDesc1" type="retro"> <!-- txtDesc1 mi serve per il css (#txt) per racchiudere in un unico div 3 parti di testo-->
+            <div xml:id="testo1" type="message" facs="#zone1"> <!-- testo1 mi serve per il css (#testo) per racchiudere la porzione di testo che voglio -->
+               <cb />
+               <p>
+                  <placeName ref="#RV">Ravenna</placeName>
+                  <date when="19130725">
+                     <num>25</num>
+                     <pc>-</pc>
+                     <num value="7">VII</num>
+                     <pc>-</pc>
+                     <choice>
+                        <abbr>913</abbr>
+                        <expan>1913</expan>
+                     </choice>
+                  </date>
+               </p>
+               <p xml:id="scritto1"> <!-- scritto1 mi serve in xslt per mettere il testo in corsivo -->
+                  <lb />
+                  <phr>
+                     <w>Oggi</w>
+                     <w>finalmente</w>
+                     <w>
+                        abbia
+                        <choice>
+                           <orig>
+                              <pc>=</pc>
+                           </orig>
+                           <reg>
+                              <pc>-</pc>
+                           </reg>
+                        </choice>
+                        <lb />
+                        mo avuto
+                     </w>
+                     <w>una</w>
+                     <w>bella</w>
+                     <emph>
+                        <w>
+                           gior
+                           <choice>
+                              <orig>
+                                 <pc>=</pc>
+                              </orig>
+                              <reg>
+                                 <pc>-</pc>
+                              </reg>
+                           </choice>
+                           <lb />
+                           nata
+                        </w>
+                     </emph>
+                     <w>piena</w>
+                     <w>di</w>
+                     <w>sole</w>
+                     <pc>:</pc>
+                  </phr>
+                  <phr>
+                     <w>da</w>
+                     <lb />
+                     <w>tanto</w>
+                     <w>tempo</w>
+                     <w>era</w>
+                     <w>attesa</w>
+                     <choice>
+                        <orig>
+                           <pc>_</pc>
+                        </orig>
+                        <reg>
+                           <pc>.</pc>
+                        </reg>
+                     </choice>
+                  </phr>
+                  <lb />
+                  <phr>
+                     <w>La</w>
+                     <w>salute</w>
+                     <w>è</w>
+                     <w>ottima</w>
+                     <choice>
+                        <orig>
+                           <pc>_</pc>
+                        </orig>
+                        <reg>
+                           <pc>.</pc>
+                        </reg>
+                     </choice>
+                  </phr>
+                  <lb />
+                  <phr>
+                     <w>Attendiamo</w>
+                     <w>notizie</w>
+                     <lb />
+                     <w>da</w>
+                     <placeName ref="#NO">Arona</placeName>
+                     <choice>
+                        <orig>
+                           <pc>_</pc>
+                        </orig>
+                        <reg>
+                           <pc>.</pc>
+                        </reg>
+                     </choice>
+                  </phr>
+                  <lb />
+                  <phr>
+                     <w>Saluti</w>
+                     <w>sinceri</w>
+                     <w>a</w>
+                     <w>te</w>
+                     <w>e</w>
+                     <lb />
+                     <w>alla</w>
+                     <choice>
+                        <abbr>Sig ra</abbr>
+                        <expan>
+                           <w>
+                              Sig
+                              <am>no</am>
+                              ra
+                           </w>
+                        </expan>
+                     </choice>
+                     <persName>
+                        <forename>Carolina</forename>
+                     </persName>
+                     <choice>
+                        <orig>
+                           <pc>_</pc>
+                        </orig>
+                        <reg>
+                           <pc>.</pc>
+                        </reg>
+                     </choice>
+                  </phr>
+                  <lb />
+                     <persName ref="#G">Giuseppe</persName>
+               </p>
+            </div>
+            <div xml:id="indirizzo1" facs="#zone3"> <!-- indirizzo1 mi serve per il css (#indirizzo) per racchiudere la porzione di testo che voglio -->
+               <cb />
+               <p>
+                  <lb />
+                  <w>
+                     <unclear>Signorina</unclear> <!-- unclear perchè c'è il timbro sopra quindi si legge male -->
+                  </w>
+                  <lb />
+                  <persName ref="#OT">
+                     <forename>Olivia</forename>
+                     <surname>Turtura</surname>
+                  </persName>
+                  <lb />
+                  <w>presso</w>
+                  <w>
+                     <abbr>
+                        Sig
+                        <pc>.</pc>
+                     </abbr>
+                  </w>
+                  <persName>
+                     <surname>Cibecchini</surname>
+                  </persName>
+                  <lb />
+                  <address>
+                     <addrLine>
+                        Via
+                        <persName>
+                           <surname>Cavour</surname>
+                        </persName>
+                        <num>12</num>
+                     </addrLine>
+                  </address>
+                  <lb />
+                  <placeName ref="#NO">Arona</placeName>
+                  <lb />
+                  <pc>(</pc>
+                  <placeName>
+                     <w>Lago</w>
+                     <w>Maggiore</w>
+                  </placeName>
+                  <pc>)</pc>
+               </p>
+            </div>
+            <div xml:id="timbri1" type="destination" facs="#zone2"> <!-- timbri1 mi serve per il css (#timbri) per racchiudere la porzione di testo che voglio -->
+               <p>
+                  <!-- stamps -->
+                  <stamp type="postmark">
+                     <mentioned>Ravenna Arr e Part</mentioned>
+                     <date when="1916-12-19">1913/7/25</date>
+                     <time when="20.00">20</time>
+                  </stamp>
+                  <stamp type="postmark">
+                     <mentioned>Ravenna Arr e Part</mentioned>
+                     <date when="1916-12-19">1913/7/25</date>
+                     <time when="20.00">20</time>
+                  </stamp>
+                  <stamp type="postmark">
+                     <mentioned>Arona (Novara)</mentioned>
+                     <date when="1916-12-19">1913/7/25</date>
+                     <time when="10.00">10</time>
+                  </stamp>
+                  <stamp type="postage">Francobollo da 10 centesimi del Regno d'Italia</stamp>
+               </p>
+               <p xml:id="address1">
+                  <address>
+                     <addrLine>Signorina</addrLine>
+                     <addrLine>
+                        <persName ref="#OT">Olivia Turtura</persName>
+                     </addrLine>
+                     <addrLine>
+                        presso Sig.
+                        <persName>Cibecchini</persName>
+                     </addrLine>
+                     <addrLine>Via Cavour 12</addrLine>
+                     <addrLine>
+                        <placeName ref="#NO">Arona</placeName>
+                     </addrLine>
+                     <addrLine>
+                        <placeName>(Lago Maggiore)</placeName>
+                     </addrLine>
+                  </address>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+   <facsimile xml:id="facsimile1">
+      <surface xml:id="fronte1" start="#cartolina_fronte1">
+         <graphic url="Cartoline/7694-064F.png" width="1037.007812px" height="1634.007812px" /> <!-- tutta l'immagine -->
+      </surface>
+      <surface xml:id="retro1" start="#cartolina_retro1">
+         <graphic url="Cartoline/7694-064R.png" width="1644px" height="1054px" />
+         <zone ulx="3" uly="8" lrx="835" lry="1054" xml:id="zone1" />
+         <!-- parte sinistra -->
+         <zone ulx="817" uly="6" lrx="1643" lry="396" xml:id="zone2" />
+         <!-- parte in alto a destra (timbri)-->
+         <zone ulx="835" uly="390" lrx="1639" lry="1048" xml:id="zone3" />
+         <!-- parte in basso a destra -->
+      </surface>
+   </facsimile>
+</TEI>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "PostcardProject.dtd">
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:id="teiHeader">
+      <fileDesc>
+         <titleStmt>
+            <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+            <title>Cartoline - Edizione digitale diplomatico-interpretativa</title>
+            <!-- TRASCRITTORE nome e cognome-->
+            <respStmt>
+               <resp>Transcription by</resp>
+               <name xml:id="CA">Chiara Ambrosi</name>
+               <name xml:id="VS">Viviana Scicolone</name>
+            </respStmt>
+            <!-- ENTE DI APPARTENENZA -->
+            <respStmt>
+               <resp>Ente di Appartenenza</resp>
+               <name type="comune" xml:id="SP">Comune di La Spezia</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               Studenti di Informatica Umanistica, corso di Laurea di Informatica Umanistica, Università di Pisa
+               <!-- COMPILAZIONE -->
+               <date when="2018">2018</date>
+            </edition>
+            <!-- NOME COMPILATORE -->
+            <respStmt>
+               <resp>Encoding by</resp>
+               <name xml:id="XY1">Tommaso Castagneto</name>
+            </respStmt>
+            <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+            <respStmt>
+               <resp>Compilatore</resp>
+               <name xml:id="XY2">Tommaso Castagneto</name>
+               <name xml:id="XZ1">Viviana Sciolone e Chiara Ambrosi</name>
+            </respStmt>
+            <respStmt>
+               <resp>Responsabile scientifico</resp>
+               <name xml:id="GP">Giacomo Paolicchi</name>
+               <name xml:id="ES">Enrica Salvatori</name>
+            </respStmt>
+            <respStmt>
+               <resp>Funzionario responsabile</resp>
+               <name xml:id="ER">E. Ratti</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Unipi</publisher>
+            <pubPlace>Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>LabCD</distributor>
+            <address xml:id="lab">
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa,</addrLine>
+               <addrLine>Pisa</addrLine>
+            </address>
+         </publicationStmt>
+         <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+         <notesStmt>
+            <note xml:id="cart1">La cartolina "Aggiornamenti da Ravenna" sul retro riporta la stampa “Copyright by A. Noyer 1912 – Allegorie n 198”.</note>
+            <note xml:id="cart3">La cartolina "Amore Incondizionato" non presenta riferimenti riguardanti la data di invio e la cronologia. 
+               Non sono presenti timbri e francobollo, come se la cartolina non fosse mai stata inviata.</note>
+         </notesStmt>
+         <sourceDesc xml:id="none">
+            <p />
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="cartolina1.xml">
+      <xi:fallback />
+   </xi:include>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="cartolina2.xml">
+      <xi:fallback />
+   </xi:include>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="cartolina3.xml">
+      <xi:fallback />
+   </xi:include>
+</teiCorpus>
